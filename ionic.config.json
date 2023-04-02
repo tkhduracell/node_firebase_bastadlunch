@@ -1,0 +1,7 @@
+{
+  "name": "Båstad Lunch",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}

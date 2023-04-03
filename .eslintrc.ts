@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   root: true,
   env: {
     node: true
@@ -11,6 +11,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020
   },
+  ignorePatterns: [
+    "/functions/**/*", // Ignore built files.
+  ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',

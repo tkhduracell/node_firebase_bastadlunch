@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "lib": [
+      "ES2022",
+      "DOM"
+    ],
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "nodenext",
+    "target": "ES2022",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "types": []
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ],
+  "ts-node": {
+    "esm": true
+  }
+}

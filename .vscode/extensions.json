@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "ionic.ionic"
+        "ionic.ionic",
+        "dbaeumer.vscode-eslint",
+        "Vue.volar"
     ]
 }
